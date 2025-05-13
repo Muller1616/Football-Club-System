@@ -92,83 +92,82 @@ A comprehensive web-based system for managing football clubs, including players,
 
 The system uses a MySQL database with the following main tables:
 
-- `users`: Stores user account information
-- `teams`: Contains team details
-- `players`: Stores player information and team assignments
+- `users`: Stores user account information <br>
+- `teams`: Contains team details <br>
+- `players`: Stores player information and team assignments <br>
 - `coaches`: Manages coach profiles and team assignments
-- `matches`: Tracks match schedules, scores, and venues
-- `tickets`: Records ticket purchases by fans
+- `matches`: Tracks match schedules, scores, and venues <br>
+- `tickets`: Records ticket purchases by fans <br>
 
-The complete database schema can be found in `database/football_club.sql`.
+The complete database schema can be found in `database/football_club.sql`. <br>
 
-## Project Structure
+## Project Structure <br>
 
 \`\`\`
-football-club-system/
-├── admin/                  # Admin panel pages
-├── assets/                 # Static assets
-│   ├── css/
-│   ├── images/
-│   └── js/
-├── auth/                   # Authentication pages
-├── config/                 # Configuration files
-├── database/               # Database schema
-├── includes/               # Shared PHP files
-├── player/                 # Player interface pages
-├── coach/                  # Coach interface pages
-├── uploads/                # User uploaded files
-├── user/                   # Fan interface pages
-├── index.php               # Homepage
-└── README.md               # Project documentation
-\`\`\`
+football-club-system/ <br>
+├── admin/                  # Admin panel pages <br>
+├── assets/                # Static assets <br>
+│   ├── css/<br>
+│   ├── images/ <br>
+│   └── js/ <br>
+├── auth/                   # Authentication pages <br>
+├── config/                 # Configuration files <br>
+├── database/               # Database schema <br>
+├── includes/               # Shared PHP files <br>
+├── player/                 # Player interface pages <br>
+├── coach/                  # Coach interface pages <br>
+├── uploads/                # User uploaded files <br>
+├── user/                   # Fan interface pages <br>
+├── index.php               # Homepage <br>
+└── README.md               # Project docum entation <br>
+\`\`\` <br>
 
-## Troubleshooting
+## Troubleshooting <br>
 
-### Common Issues
+### Common Issues <br>
 
-1. **Database Connection Error**
-   - Verify database credentials in `includes/db.php` and `config/database.php`
-   - Ensure MySQL service is running
-   - Check if the database exists
+1. **Database Connection Error** <br>
+   - Verify database credentials in `includes/db.php` and `config/database.php` <br>
+   - Ensure MySQL service is running <br>
+   - Check if the database exists <br>
 
-2. **Missing Directories**
-   - Ensure all required directories exist and have proper permissions
-   - Create `uploads/players` and `uploads/coaches` directories if missing
+2. **Missing Directories** <br>
+   - Ensure all required directories exist and have proper permissions <br>
+   - Create `uploads/players` and `uploads/coaches` directories if missing <br>
 
-3. **File Permission Issues**
-   - Set appropriate permissions for upload directories (755 or 775)
-   - Ensure web server has write access to these directories
+3. **File Permission Issues** <br>
+   - Set appropriate permissions for upload directories (755 or 775) <br>
+   - Ensure web server has write access to these directories <br>
 
-4. **Blank Pages or PHP Errors**
-   - Enable error reporting in PHP for debugging
-   - Check PHP error logs for detailed information
+4. **Blank Pages or PHP Errors** <br>
+   - Enable error reporting in PHP for debugging <br>
+   - Check PHP error logs for detailed information <br>
 
-## Future Enhancements
+## Future Enhancements <br>
 
-- Player statistics tracking
-- Match live updates
-- Fan forum and discussion board
-- Email notifications for ticket purchases
-- Mobile application integration
-- Payment gateway integration for ticket sales
-- Advanced reporting and analytics
+- Player statistics tracking <br>
+- Match live updates <br>
+- Fan forum and discussion board <br>
+- Email notifications for ticket purchases <br>
+- Mobile application integration <br>
+- Payment gateway integration for ticket sales <br>
+- Advanced reporting and analytics <br>
 
-## Contributing
+## Contributing <br>
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. <br>
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. Fork the repository <br>
+2. Create your feature branch (`git checkout -b feature/amazing-feature`) <br>
+3. Commit your changes (`git commit -m 'Add some amazing feature'`) <br>
+4. Push to the branch (`git push origin feature/amazing-feature`) <br>
+5. Open a Pull Request <br>
 
-## License
+## License <br>
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. <br>
 
-## Contact
+## Contact <br>
 
-Mulugeta - mulugetaabeje16@gmail.com
+Mulugeta - mulugetaabeje16@gmail.com <br>
 
-Project Link: 
