@@ -23,7 +23,7 @@ A comprehensive web-based system for managing football clubs, including players,
 ## Technologies Used
 
 - **Backend**: PHP 8.4+
-- **Database**: MySQL 5.7+
+- **Database**: MySQL 8.3+
 - **Frontend**: HTML5, CSS3, JavaScript
 - **CSS Framework**: Custom CSS with responsive design
 - **JavaScript Libraries**: Vanilla JavaScript
